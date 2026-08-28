@@ -1,0 +1,75 @@
+Copyright (c) 2026 Erovoutika. All rights reserved.
+
+Erovoutika Robot Controller
+Unit 703, PARC HOUSE II, Epifanio de los Santos Ave, Makati, 1212 Metro Manila,
+Philippines
+
+
+WHAT THIS IS
+
+This source code is published so that Erovoutika's students, trainees and
+customers can read it, learn from it, and understand exactly what the app on
+their phone does. That is the whole reason the repository is public.
+
+It is NOT open source, and publishing it grants no licence beyond what is
+written below.
+
+
+YOU MAY
+
+  - Read, study and reference this source code for personal learning.
+  - Build and run it on your own device for your own private, non-commercial
+    use, including with your own robot hardware.
+  - Quote short excerpts in coursework, tutorials or discussion, with
+    attribution to Erovoutika.
+  - Adapt the bundled Arduino sketches under arduino_sketches/ and
+    arduino_code_guide/ for your own robots, freely and without attribution.
+    They are teaching material and are meant to be modified.
+
+YOU MAY NOT, without prior written permission from Erovoutika
+
+  - Publish, distribute or sell this application, or any derivative of it, on
+    Google Play, the App Store, or any other distribution channel.
+  - Use the Erovoutika name, logo, brand marks, product photography or product
+    catalogue in any application, product or promotional material.
+  - Use this code, in whole or in part, in a commercial product or service.
+  - Remove or alter this notice.
+
+
+TRADEMARKS
+
+"Erovoutika" and the Erovoutika gear mark are trademarks of Erovoutika.
+Nothing here licenses their use.
+
+"Arduino" is a trademark of its respective owner. Erovoutika Robot Controller
+is not affiliated with, endorsed by, or sponsored by Arduino SRL or Arduino
+LLC; the name appears only to describe compatible hardware.
+
+Product photography under assets/ and the product catalogue in
+lib/constants/shop_catalog.dart depict goods sold by Erovoutika and are
+included for use within this application only.
+
+
+THIRD-PARTY COMPONENTS
+
+This project depends on open-source Flutter and Dart packages, each governed by
+its own licence. See pubspec.yaml for the list and the pub.dev page of each
+package for its terms. Nothing in this notice modifies those licences.
+
+
+NO WARRANTY
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+It drives motors. Robots move, and a moving robot can damage itself, its
+surroundings, or injure someone. You are responsible for your own hardware,
+your own wiring and your own safety precautions. IN NO EVENT SHALL EROVOUTIKA
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE USE OF
+THIS SOFTWARE.
+
+
+PERMISSIONS AND ENQUIRIES
+
+erovoutika@gmail.com

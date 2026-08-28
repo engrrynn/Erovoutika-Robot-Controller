@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Privacy policy for the Erovoutika Robot Controller Android app (com.erovoutika.btcontroller). No data is collected, transmitted or sold.">
+<meta name="robots" content="index, follow">
+<title>Erovoutika Robot Controller Privacy Policy</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@500;600&display=swap">
+
+<style>
+  /* ── Light palette. Complete on bare :root so the un-stamped
+       (system-default) document always resolves. ───────────────────── */
+  :root {
+    --page:      #f5f6fb;
+    --surface:   #ffffff;
+    --ink:       #14161f;
+    --ink-soft:  #4c5266;
+    --ink-faint: #767c91;
+    --rule:      #dee2ee;
+    --rule-firm: #c3c9dc;
+    --navy:      #00008B;
+    --navy-soft: #3a3ab0;
+    --amber:     #a8580c;   /* darkened for contrast on white */
+    --amber-pure:#f79324;   /* brand orange, non-text use only */
+    --callout:   #fdfaf5;
+
+    --measure: 34rem;
+    --step--1: 0.815rem;
+    --step-0:  1.0rem;
+    --step-1:  1.16rem;
+    --step-2:  1.42rem;
+    --step-3:  2.1rem;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --page:      #0d0f16;
+      --surface:   #161926;
+      --ink:       #e7eaf3;
+      --ink-soft:  #a3aabf;
+      --ink-faint: #7b8299;
+      --rule:      #272c3c;
+      --rule-firm: #39405a;
+      --navy:      #a3a3ff;
+      --navy-soft: #8f8fe8;
+      --amber:     #f0a34c;
+      --amber-pure:#f79324;
+      --callout:   #1c1a17;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --page:      #0d0f16;
+    --surface:   #161926;
+    --ink:       #e7eaf3;
+    --ink-soft:  #a3aabf;
+    --ink-faint: #7b8299;
+    --rule:      #272c3c;
+    --rule-firm: #39405a;
+    --navy:      #a3a3ff;
+    --navy-soft: #8f8fe8;
+    --amber:     #f0a34c;
+    --amber-pure:#f79324;
+    --callout:   #1c1a17;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: var(--step-0);
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: calc(var(--measure) + 6rem);
+    margin: 0 auto;
+    padding: 0 1.5rem 6rem;
+  }
+
+  /* ── Masthead ────────────────────────────────────────────────────── */
+  .masthead {
+    padding: 4rem 0 2rem;
+    border-bottom: 2px solid var(--navy);
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .eyebrow {
+    font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: var(--step--1);
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin: 0;
+  }
+
+  h1 {
+    font-family: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+    font-weight: 600;
+    font-size: var(--step-3);
+    line-height: 1.12;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+    color: var(--navy);
+    margin: 0;
+  }
+
+  /* Document metadata, set as a real definition list — it is reference
+     data, not prose, and the mono face makes the package id legible. */
+  .meta {
+    display: grid;
+    grid-template-columns: minmax(6.5rem, auto) 1fr;
+    gap: 0.35rem 1.25rem;
+    margin: 0;
+    font-size: var(--step--1);
+  }
+  .meta dt {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .meta dd { margin: 0; color: var(--ink-soft); }
+
+  /* ── Short version ───────────────────────────────────────────────── */
+  .lede {
+    margin: 2.5rem 0 0;
+    padding: 1.5rem 1.75rem;
+    background: var(--callout);
+    border: 1px solid var(--rule-firm);
+    border-left: 3px solid var(--amber-pure);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  .lede p { margin: 0; max-width: var(--measure); }
+  .lede strong { color: var(--navy); }
+
+  /* ── Sections ────────────────────────────────────────────────────── */
+  section { margin-top: 3rem; }
+
+  h2 {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: var(--step-2);
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+    color: var(--ink);
+    margin: 0 0 0.85rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--rule);
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+  }
+  /* The numbering is legal-document convention and the sections really are
+     an ordered set that gets cited by number — not decoration. */
+  h2 .n {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: var(--step-0);
+    font-weight: 500;
+    color: var(--amber);
+    flex: none;
+  }
+
+  p, li { max-width: var(--measure); }
+  p { margin: 0 0 0.9rem; }
+  section > p:last-child, section > ul:last-child { margin-bottom: 0; }
+
+  ul { margin: 0 0 0.9rem; padding-left: 1.15rem; }
+  li { margin-bottom: 0.35rem; }
+  li::marker { color: var(--ink-faint); }
+
+  strong { font-weight: 600; color: var(--ink); }
+  em { color: var(--ink-soft); }
+
+  a {
+    color: var(--navy-soft);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+  }
+  a:focus-visible {
+    outline: 2px solid var(--amber-pure);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  code, .perm {
+    font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.86em;
+    color: var(--navy-soft);
+    overflow-wrap: anywhere;
+  }
+
+  /* ── Permission table ────────────────────────────────────────────── */
+  .scroll {
+    overflow-x: auto;
+    margin: 1.25rem 0;
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    background: var(--surface);
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 42rem;
+    font-size: var(--step--1);
+    line-height: 1.55;
+  }
+  th, td {
+    text-align: left;
+    vertical-align: top;
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  th {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-weight: 600;
+    font-size: 0.76rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    border-bottom: 1px solid var(--rule-firm);
+    white-space: nowrap;
+  }
+  td:first-child { width: 12rem; }
+  td p { max-width: none; margin: 0 0 0.4rem; }
+  td p:last-child { margin-bottom: 0; }
+  .capped {
+    display: inline-block;
+    margin-top: 0.3rem;
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--amber);
+  }
+
+  /* ── Footer ──────────────────────────────────────────────────────── */
+  footer {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid var(--navy);
+    font-size: var(--step--1);
+    color: var(--ink-soft);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  footer p { margin: 0; }
+  .disclaimer { color: var(--ink-faint); }
+
+  @media (max-width: 34rem) {
+    :root { --step-3: 1.7rem; --step-2: 1.25rem; }
+    .masthead { padding-top: 2.5rem; }
+    .meta { grid-template-columns: 1fr; gap: 0.1rem; }
+    .meta dd { margin-bottom: 0.5rem; }
+    .lede { padding: 1.25rem; }
+  }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <p class="eyebrow">Privacy Policy</p>
+    <h1>Erovoutika Robot Controller</h1>
+    <dl class="meta">
+      <dt>Effective</dt>
+      <dd>27 August 2026</dd>
+      <dt>Application</dt>
+      <dd>Erovoutika Robot Controller &nbsp;<code>com.erovoutika.btcontroller</code></dd>
+      <dt>Developer</dt>
+      <dd>Erovoutika &mdash; Unit 703, PARC HOUSE II, Epifanio de los Santos Ave, Makati, 1212 Metro Manila, Philippines</dd>
+      <dt>Contact</dt>
+      <dd><a href="mailto:erovoutika@gmail.com">erovoutika@gmail.com</a></dd>
+    </dl>
+  </header>
+
+  <div class="lede">
+    <p><strong>The short version.</strong> Erovoutika Robot Controller does not collect, transmit, or sell any personal information. There is no account to create, no sign-in, no analytics, no advertising SDK, and no tracking of any kind. Everything the app remembers is stored on your own phone and stays there.</p>
+    <p>We have written the long version anyway, because &ldquo;we don&rsquo;t collect anything&rdquo; is a claim that deserves to be checked rather than trusted.</p>
+  </div>
+
+  <section>
+    <h2><span class="n">01</span> Information we collect</h2>
+    <p><strong>None.</strong> Erovoutika does not receive any information about you or your device from this app. The app has no server, no account system, no crash reporting, no analytics library and no advertising identifier.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">02</span> Information the app stores on your device</h2>
+    <p>The app saves a small amount of your own setup so it survives closing the app. This is stored in Android&rsquo;s private app storage, is readable only by this app, and is never uploaded anywhere:</p>
+    <ul>
+      <li>Names you give to your control channels (for example renaming &ldquo;D3&rdquo; to &ldquo;Horn&rdquo;)</li>
+      <li>How many toggle buttons or sliders each panel shows</li>
+      <li>Slider defaults such as speed, line threshold and obstacle distance</li>
+      <li>Two preferences: whether sound and vibration feedback are on</li>
+    </ul>
+    <p>Device backup and device-to-device transfer are deliberately switched off for this app, so even these settings are not copied to Google Drive or to a new phone. Uninstalling the app deletes them permanently.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">03</span> Permissions, and what each one is for</h2>
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Permission</th>
+            <th scope="col">Why the app asks</th>
+            <th scope="col">What happens to the data</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <strong>Nearby devices</strong>
+              <p class="perm">BLUETOOTH_SCAN<br>BLUETOOTH_CONNECT</p>
+            </td>
+            <td>To find your robot&rsquo;s HC-05, HC-06, HM-10 or ESP32 module and open a serial connection to it</td>
+            <td>Device names and addresses are shown in the picker and held in memory for the length of the session. They are not saved and never leave the phone</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Location</strong>
+              <p class="perm">ACCESS_FINE_LOCATION<br>ACCESS_COARSE_LOCATION</p>
+              <span class="capped">Android 11 and older only</span>
+            </td>
+            <td>Android 11 and below had no separate scanning permission, so the operating system required location permission before <em>any</em> app could scan for Bluetooth or Wi-Fi devices</td>
+            <td><strong>The app has no location feature.</strong> It never reads GPS, never resolves a position, and never stores or transmits anything derived from one. On Android 12 and newer the app does not request location at all &mdash; the permission is capped in the manifest so it cannot be requested there</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Wi-Fi</strong>
+              <p class="perm">ACCESS_WIFI_STATE<br>CHANGE_WIFI_STATE<br>NEARBY_WIFI_DEVICES</p>
+            </td>
+            <td>The ESP32 Dashboard panel lists nearby access points so you can find the robot&rsquo;s own network, and pins the app&rsquo;s traffic to it once you join</td>
+            <td>The list of network names is drawn on screen and discarded. Nothing is stored or transmitted</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Network</strong>
+              <p class="perm">INTERNET<br>ACCESS_NETWORK_STATE<br>CHANGE_NETWORK_STATE</p>
+            </td>
+            <td>To open the shop and the Arduino documentation, load product photos, and reach the ESP32&rsquo;s dashboard page</td>
+            <td>See section 05</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>The app does <strong>not</strong> request microphone, camera, contacts, storage, SMS, phone, calendar or background-location permissions.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">04</span> Voice Control and the microphone</h2>
+    <p>The Voice Control panel does <strong>not</strong> open the microphone. It hands a request to Android&rsquo;s own voice-input dialog &mdash; the same one used across your phone &mdash; and that system component does the listening under its own permission. The app only ever receives the resulting <strong>text</strong>, uses it to work out a driving command, and discards it.</p>
+    <p>This means your speech is processed by whichever speech-recognition provider your phone is configured to use (on most devices, Google). That processing is governed by <em>that provider&rsquo;s</em> privacy policy, not ours, and happens whether or not this app is involved. Erovoutika never receives your voice or the transcript.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">05</span> Internet connections the app makes</h2>
+    <p>The app works fully offline. Every controller, all bundled Arduino sketches, the command wiki, the company page and every bundled image are on the device. Connections are made only when you open a feature that needs one:</p>
+    <ul>
+      <li><code>shop.erovoutika.ph</code> &mdash; the in-app shop browser, and product photographs on the promotional strip</li>
+      <li><code>docs.arduino.cc</code> &mdash; the Arduino documentation browser</li>
+      <li><code>erovoutika-iot.web.app</code> &mdash; the IoT demonstration page</li>
+      <li><code>erovoutika.ph</code> &mdash; the company website</li>
+      <li><code>facebook.com</code> &mdash; only if you tap a news item; this opens in the Facebook app or your browser, not inside this app</li>
+      <li><code>192.168.4.1</code> &mdash; your own ESP32, over your own local network. This traffic never reaches the internet</li>
+    </ul>
+    <p>These are ordinary web pages. When you visit one, it can set its own cookies and keep its own server logs exactly as it would in any browser, under its own privacy policy. We do not add tracking to them and we do not receive anything about your visit.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">06</span> Advertising</h2>
+    <p>The app shows a slim, dismissible strip promoting Erovoutika&rsquo;s own products, labelled <strong>AD</strong>. It is drawn from a product list bundled inside the app.</p>
+    <p>There is <strong>no advertising SDK</strong>, no ad network, no ad personalisation, no advertising ID and no measurement of any kind. The strip does not know who you are, does not report that it was shown, and does not report that it was tapped. Nothing about you is used to choose which product appears.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">07</span> Children</h2>
+    <p>This app is <strong>not directed to children under 13</strong>. It is a technical tool for students, hobbyists and trainees working with Arduino hardware, and its Google Play target audience is set to 13 and over. We do not knowingly collect personal information from anyone, children included &mdash; because we do not collect personal information at all.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">08</span> Sharing and selling</h2>
+    <p>We share nothing, because we hold nothing. No data is sold, rented, or disclosed to third parties, advertisers, data brokers or affiliates. There is no situation in which this can change without a new version of the app and an update to this policy.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">09</span> Security</h2>
+    <p>Because no personal data is collected or transmitted, there is no store of user data to breach. Within the app:</p>
+    <ul>
+      <li>All external web traffic uses HTTPS. Plain HTTP is permitted for exactly one address &mdash; <code>192.168.4.1</code>, your own ESP32, which cannot hold a certificate &mdash; and is blocked everywhere else</li>
+      <li>Local settings live in Android&rsquo;s private per-app storage</li>
+      <li>Release builds are code-shrunk and obfuscated, and are signed with a key held only by Erovoutika</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="n">10</span> Your rights</h2>
+    <p>You can erase everything the app has stored by clearing the app&rsquo;s data in Android <strong>Settings &rarr; Apps &rarr; Erovoutika Robot Controller &rarr; Storage</strong>, or by uninstalling it. Since we hold no data about you, there is nothing for us to retrieve, correct or delete on our side &mdash; but you are welcome to write to us with any question about this policy.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">11</span> Changes to this policy</h2>
+    <p>If the app ever changes in a way that affects this policy, we will update this page and change the effective date above. Material changes will also be noted in the app&rsquo;s release notes on Google Play.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">12</span> Contact</h2>
+    <p>
+      <strong>Erovoutika</strong><br>
+      Unit 703, PARC HOUSE II, Epifanio de los Santos Ave, Makati, 1212 Metro Manila, Philippines<br>
+      Email: <a href="mailto:erovoutika@gmail.com">erovoutika@gmail.com</a><br>
+      Phone: 074 423 1557 &middot; Mobile: 0965 354 6415<br>
+      Web: <a href="https://erovoutika.ph/">erovoutika.ph</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Erovoutika. All rights reserved.</p>
+    <p class="disclaimer">Erovoutika Robot Controller is not affiliated with, endorsed by, or sponsored by Arduino SRL or Arduino LLC. &ldquo;Arduino&rdquo; is a trademark of its respective owner and is used only to describe compatible hardware.</p>
+  </footer>
+
+</div>
+</body>
+</html>
